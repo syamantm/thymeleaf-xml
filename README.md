@@ -8,8 +8,8 @@ template engine to create XML fragments from java objects.
 Dependencies
 ------------
 
-[Spring Framework 3.1](http://www.springsource.org/)
-[Thymeleaf](http://www.thymeleaf.org/)
+*[Spring Framework 3.1](http://www.springsource.org/)
+*[Thymeleaf](http://www.thymeleaf.org/)
 
 
 Getting Started
