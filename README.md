@@ -49,7 +49,7 @@ with @Template(com.syamantakm.thymeleaf.xml.annotation.Template) and pass the te
         return modelAndView;
     }
 
-    The finished Controller would look like
+The finished Controller would look like:
 
     @Controller
     public class UserController {
