@@ -41,7 +41,6 @@ Inside the controller define a controller action to apply a template/view to a m
 a ModelAndView object and populate all the required fields/variables used in the view/template. Then annotate the action
 with @Template(com.syamantakm.thymeleaf.xml.annotation.Template) and pass the template name to the annotation.
 
-    ```Java
     @Template(name = "user-primitive")
     public ModelAndView<String> populateUserFromPrimitive(int id, String name) {
         ModelAndView<String> modelAndView = new ModelAndView<String>();
@@ -49,7 +48,20 @@ with @Template(com.syamantakm.thymeleaf.xml.annotation.Template) and pass the te
         modelAndView.put("name", "Test Name");
         return modelAndView;
     }
-    ```
+
+    The finished Controller would look like
+
+    @Controller
+    public class UserController {
+
+            @Template(name = "user-primitive")
+            public ModelAndView<String> populateUserFromPrimitive(int id, String name) {
+                ModelAndView<String> modelAndView = new ModelAndView<String>();
+                modelAndView.put("id", id);
+                modelAndView.put("name", name);
+                return modelAndView;
+            }
+    }
 
 ### Output
 

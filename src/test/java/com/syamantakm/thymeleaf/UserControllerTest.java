@@ -1,7 +1,5 @@
 package com.syamantakm.thymeleaf;
 
-import com.syamantakm.thymeleaf.UserController;
-import com.syamantakm.thymeleaf.xml.Model;
 import com.syamantakm.thymeleaf.xml.ModelAndView;
 import org.junit.Before;
 import org.junit.Test;

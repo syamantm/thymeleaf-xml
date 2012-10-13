@@ -1,6 +1,5 @@
 package com.syamantakm.thymeleaf.xml.aspect;
 
-import com.syamantakm.thymeleaf.xml.Model;
 import com.syamantakm.thymeleaf.xml.ModelAndView;
 import com.syamantakm.thymeleaf.xml.annotation.Template;
 import org.apache.log4j.Logger;
@@ -11,7 +10,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.Context;
 
-import java.lang.reflect.Method;
 import java.util.Map;
 
 /**

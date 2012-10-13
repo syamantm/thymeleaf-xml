@@ -1,6 +1,5 @@
 package com.syamantakm.thymeleaf;
 
-import com.syamantakm.thymeleaf.xml.Model;
 import com.syamantakm.thymeleaf.xml.ModelAndView;
 import com.syamantakm.thymeleaf.xml.annotation.Controller;
 import com.syamantakm.thymeleaf.xml.annotation.Template;
