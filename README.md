@@ -73,5 +73,5 @@ The final xml output would look like
         <username>Test Name</username>
     </user>
 
-This output can be accessed by calling getView() on the Model and View object, returned by the controller action.
+This output can be accessed by calling `getView()` on the Model and View object, returned by the controller action.
 
