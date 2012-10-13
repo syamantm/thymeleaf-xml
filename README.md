@@ -28,7 +28,7 @@ Create a xml template named user-primitive.xml:
 
 ### Controller
 
-Create a controller class by annotating with @Controller(com.syamantakm.thymeleaf.xml.annotation.Controller)
+Create a controller class by annotating with `@Controller(com.syamantakm.thymeleaf.xml.annotation.Controller)`
 
     @Controller
     public class UserController {
@@ -38,8 +38,8 @@ Create a controller class by annotating with @Controller(com.syamantakm.thymelea
 ### Model and View
 
 Inside the controller define a controller action to apply a template/view to a model. In order to do that simply create
-a ModelAndView object and populate all the required fields/variables used in the view/template. Then annotate the action
-with @Template(com.syamantakm.thymeleaf.xml.annotation.Template) and pass the template name to the annotation.
+a `ModelAndView` object and populate all the required fields/variables used in the view/template. Then annotate the action
+with `@Template(com.syamantakm.thymeleaf.xml.annotation.Template)` and pass the template name to the annotation.
 
     @Template(name = "user-primitive")
     public ModelAndView<String> populateUserFromPrimitive(int id, String name) {
@@ -73,5 +73,5 @@ The final xml output would look like
         <username>Test Name</username>
     </user>
 
-This output can be accessed by calling `getView()` on the Model and View object, returned by the controller action.
+This output can be accessed by calling `getView()` on the `ModelAndView` object, returned by the controller action.
 
