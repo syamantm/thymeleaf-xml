@@ -2,7 +2,7 @@ XML Templating with Thymeleaf
 =============================
 
 This is a simple MVC framework built with [Spring](http://www.springsource.org/) and [Thymeleaf](http://www.thymeleaf.org/)
-template engine to create XML fragments from java objects.
+template engine to create XML fragments from java objects for non-web based applications.
 
 
 Dependencies
