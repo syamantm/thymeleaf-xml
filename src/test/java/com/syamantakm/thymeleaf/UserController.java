@@ -11,11 +11,11 @@ import com.syamantakm.thymeleaf.xml.annotation.Template;
 @Controller
 public class UserController {
 
-    @Template(name = "user-primitive")
-    public ModelAndView<String> populateUserFromPrimitive(int id, String name) {
-        ModelAndView<String> modelAndView = new ModelAndView<String>();
-        modelAndView.put("id", id);
-        modelAndView.put("name", name);
-        return modelAndView;
-    }
+        @Template(name = "user-primitive")
+        public ModelAndView<String> populateUserFromPrimitive(int id, String name) {
+            ModelAndView<String> modelAndView = new ModelAndView<String>();
+            modelAndView.put("id", id);
+            modelAndView.put("name", name);
+            return modelAndView;
+        }
 }
