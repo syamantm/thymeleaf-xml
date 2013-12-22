@@ -70,11 +70,13 @@ The finished Controller would look like:
 
 The final xml output would look like
 
+```xml
     <?xml version="1.0"?>
     <user>
         <userid>12</userid>
         <username>Test Name</username>
     </user>
+```
 
 This output can be accessed by calling `getView()` on the `ModelAndView` object, returned by the controller action.
 
