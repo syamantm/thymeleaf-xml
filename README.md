@@ -20,21 +20,23 @@ Getting Started
 
 Create a xml template named user-primitive.xml:
 
+```xml
     <?xml version="1.0" encoding="UTF-8" ?>
     <user>
         <userid th:text="${id}">user id</userid>
         <username th:text="${name}">username</username>
     </user>
+```
 
 ### Controller
 
 Create a controller class by annotating with `@Controller(com.syamantakm.thymeleaf.xml.annotation.Controller)`
-
+```java
     @Controller
     public class UserController {
 
     }
-
+```
 ### Model and View
 
 Inside the controller define a controller action to apply a template/view to a model. In order to do that simply create
