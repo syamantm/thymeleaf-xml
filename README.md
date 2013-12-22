@@ -53,6 +53,7 @@ with `@Template(com.syamantakm.thymeleaf.xml.annotation.Template)` and pass the 
 
 The finished Controller would look like:
 
+```java
     @Controller
     public class UserController {
 
@@ -64,7 +65,7 @@ The finished Controller would look like:
                 return modelAndView;
             }
     }
-
+```
 ### Output
 
 The final xml output would look like
